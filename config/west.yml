@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/maximus5684/zmk
+      url-base: https://github.com/maximus5684
   projects:
     - name: zmk
       remote: zmkfirmware
