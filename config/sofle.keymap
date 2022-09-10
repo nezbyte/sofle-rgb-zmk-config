@@ -29,7 +29,7 @@
                     &lt 1 LBKT  &kp SPACE  &mt LGUI MINUS &kp LALT &kp LCTRL   &lt 2 RBKT &kp RET &mt RGUI EQUAL &kp DEL  &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
         };
 
         lower_layer {
@@ -43,11 +43,11 @@
 &kp F5    &kp F4    &kp F3    &kp F2   &kp F1    &ext_power EP_TOG                &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
 &kp N5    &kp N4    &kp N3    &kp N2   &kp N1    &trans                           &kp N6    &kp N7   &kp N8          &kp N9    &kp N0    &kp F12
 &kp PRCNT &kp DLLR  &kp HASH  &kp AT &kp EXCL  &trans                        &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &trans
-&kp BSLH &kp LBRC &kp LBKT &kp UNDER &kp MINUS  &trans          &trans  &trans &kp PIPE  &kp RBRC &kp RBKT        &kp EQUAL &kp PLUS  &trans
-                 &trans    &trans   &trans    &ext_power EP_TOG &trans  &trans &trans    &trans   &trans          &trans
+&kp BSLH &kp LBRC &kp LBKT &kp UNDER &kp MINUS  &trans  &kp DEL  &trans &kp PIPE  &kp RBRC &kp RBKT        &kp EQUAL &kp PLUS  &trans
+&trans    &trans   &trans    &ext_power EP_TOG &trans  &trans &trans    &trans   &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
         };
 
         raise_layer {
@@ -65,7 +65,7 @@
                        &trans          &trans          &trans          &trans          &trans  &trans &ext_power EP_TOG  &trans     &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
         };
     };
 };
